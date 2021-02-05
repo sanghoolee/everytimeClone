@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>강의평가</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <a class="nav-link active" aria-current="page" href="#"><h2>강의평가 플랫폼</h2></a>
+            <a class="nav-link" href="#">성적조회</a>
+            <a class="nav-link" href="#">개인정보</a>
+        </nav>
+        <hr />
+
+        <div class="wrapper w-90">
+            <div class="border rounded-3">
+                <h3>과목명</h3>
+                과목정보
+            </div>
+
+            <div class="border rounded-3">
+                <h4>강의평</h4>
+                <a class="button write" href="">새 강의평 쓰기</a>
+                <div class="rating">
+                    <div class="rate">
+                        <span class="value">4.33</span>
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="star"> </span>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <p>
+                        <label>과제</label>
+                        <span>보통</span>
+                    </p>
+                    <p>
+                        <label>학점</label>
+                        <span>짬</span>
+                    </p>
+                    <p>
+                        <label>난이도</label>
+                        <span>보통</span>
+                    </p>
+                </div>
+
+                <div class="articles">
+                    <article>
+                        <p class="rate">
+                            <span class="star">
+                                <span class="value">5.00</span>
+                            </span>
+                        </p>
+                        <p class="info">
+                            <span class="semester">2020-2학기 수강지</span>
+                        </p>
+                        <p class="text">"개인과제는 매우 쉬워서 모두가 ...."</p>
+                    </article>
+
+                    <article>
+                        <p class="rate">
+                            <span class="star">
+                                <span class="value">3.00</span>
+                            </span>
+                        </p>
+                        <p class="info">
+                            <span class="semester">2020-1학기 수강지</span>
+                        </p>
+                        <p class="text">"개인과제는 매우 어려워서 모두가 ...."</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
